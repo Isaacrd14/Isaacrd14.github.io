@@ -1,15 +1,15 @@
 ---
-title: Golden
-subtitle: Website Design
+title: Looker studio
+subtitle: Gráficos interactivos para análisis de datos
 layout: default
 modal-id: 3
-date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+date: 2023-07-16
+img: datastudio.jpg
+thumbnail: datastudio-sub.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: Junio 2023
+client: Municipalidad de Peñaflor
+category: Análisis de datos
+description: Ayude en la creación de reportes automáticos con Data Studio para todas las Direcciones municipales de Peñaflor, optimizando tareas y reportes periódicos que los funcionarios debían crear a mano
 
 ---
