@@ -15,10 +15,13 @@ people:
   social:
     - title: X
       url: https://x.com/isaacrd14?t=gL_-izCuQ8dK7tRr_ey36A&s=09
+      target: _blank
     - title: Linkeding
       url: https://www.linkedin.com/in/isaac-andr%C3%A9s-rivera-delgado-990b4a207/
+      target: _blank
     - title: GitHub
       url: https://github.com/Isaacrd14
+      target: _blank
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
