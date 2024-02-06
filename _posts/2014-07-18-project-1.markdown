@@ -5,11 +5,11 @@ layout: default
 modal-id: 1
 date: 2024-01-01
 img: ciberport.jpg
-thumbnail: dreams-thumbnail.png
+thumbnail: ciberport-sub.jpg
 alt: image-alt
 project-date: Enero 2024
 client: Certificados
 category: Pentesting
-description: Me he estado especializando constantemente en ciberseguridad, específicamente en pentesting. He utilizado múltiples herramientas y he obtenido certificados que respaldan mi conocimiento. Para màs informaciòn de estos certificados puede pinchar en "Servicio:Pentesting"
+description: Me he estado especializando constantemente en ciberseguridad, específicamente en pentesting. He utilizado múltiples herramientas y he obtenido certificados que respaldan mi conocimiento. Para màs información de estos certificados puede pinchar en "Servicio:Pentesting"
 
 ---
