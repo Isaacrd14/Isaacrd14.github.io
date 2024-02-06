@@ -1,6 +1,6 @@
 ---
 title: Looker studio
-subtitle: Gráficos interactivos para análisis de datos
+subtitle: Sistema de reportes automaticos para análisis de datos
 layout: default
 modal-id: 3
 date: 2023-07-16
