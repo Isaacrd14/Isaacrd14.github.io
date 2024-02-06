@@ -10,7 +10,6 @@ alt: image-alt
 project-date: Enero 2024
 client: Certificados
 category: Pentesting
-description: Me he estado especializando constantemente en ciberseguridad, específicamente en pentesting. He utilizado múltiples herramientas y he obtenido certificados que respaldan mi conocimiento.  
-test
+description: Me he estado especializando constantemente en ciberseguridad, específicamente en pentesting. He utilizado múltiples herramientas y he obtenido certificados que respaldan mi conocimiento. Para màs informaciòn de estos certificados puede pinchar en "Servicio:Pentesting"
 
 ---
