@@ -13,7 +13,7 @@ people:
   pic: 4
   position: Ing. en computación e informática
   social:
-    - title: X
+    - title: twitter
       url: https://x.com/isaacrd14?t=gL_-izCuQ8dK7tRr_ey36A&s=09
       target: _blank
     - title: Linkeding
@@ -34,7 +34,7 @@ social:
   - title: bitbucket 
     url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/Isaacrd14
 
 # Postal address (add as many lines as necessary)
 address:
