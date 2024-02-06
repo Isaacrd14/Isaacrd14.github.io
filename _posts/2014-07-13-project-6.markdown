@@ -1,15 +1,15 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: Gestor documental
+subtitle: Proyecto Gedin
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+img: gedin.jpg
+thumbnail: penaflor-sub.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: Octubre 2023
+client: Municipalidad de Peñaflor
+category: Desarrollo de Software
+description: Apoyé activamente en el desarrollo de una plataforma web enfocada en digitalizar toda la documentación interna del municipio. Esto incluyó la realización de charlas, capacitaciones, informes de errores, documentación, manuales de uso y la resolución de problemas en tiempo real.
 
 ---

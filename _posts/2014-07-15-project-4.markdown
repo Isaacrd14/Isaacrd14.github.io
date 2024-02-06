@@ -10,6 +10,6 @@ alt: image-alt
 project-date: Septiembre 2023
 client: Municipalidad de Peñaflor
 category: Desarrollo Web
-description: Apoyé en el desarrollo de la página web de transformación digital de la Municipalidad de Peñaflor, la cual incluía todo lo relacionado con la transformación digital de la municipalidad, botones de accesibilidad, chatbot para atender rápidamente a los ciudadanos, entre otros elementos.
+description: Apoyé en el desarrollo de la página web con WordPress de transformación digital de la Municipalidad de Peñaflor, la cual incluía todo lo relacionado con la transformación digital de la municipalidad, botones de accesibilidad, chatbot para atender rápidamente a los ciudadanos, entre otros elementos.
 
 ---
