@@ -1,15 +1,15 @@
 ---
-title: Escape
-subtitle: Website Design
+title: ChatBot
+subtitle: Chatbot creado con DialogFlow
 layout: default
 modal-id: 2
-date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
+date: 2023-07-14
+img: chatbot.jpg
+thumbnail: chatbot-sub.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: Octubre 2023
+client: Municipalidad de Peñaflor
+category: Desarrollo Web
+description: Trabajé activamente en la creación de un Chatbot con DialogFlow, desde la concepción del proyecto, entrenamiento del Chatbot y posterior implementación a las páginas municipales de Péñaflor.
 
 ---
