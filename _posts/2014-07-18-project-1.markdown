@@ -12,6 +12,4 @@ client: Certificados
 category: Pentesting
 description: Me he estado especializando constantemente en ciberseguridad, específicamente en pentesting. He utilizado múltiples herramientas y he obtenido certificados que respaldan mi conocimiento.
 
-test
-
 ---
