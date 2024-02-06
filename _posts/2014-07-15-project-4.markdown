@@ -1,15 +1,15 @@
 ---
-title: Treehouse
-subtitle: Website Design
+title: Página Web
+subtitle: Transformación Digital
 layout: default
 modal-id: 4
-date: 2014-07-15
-img: treehouse.png
+date: 2023-08-15
+img: paginaweb.jpg
 thumbnail: treehouse-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: Septiembre 2023
+client: Municipalidad de Peñaflor
+category: Desarrollo Web
+description: Apoyé en el desarrollo de la página web de transformación digital de la Municipalidad de Peñaflor, la cual incluía todo lo relacionado con la transformación digital de la municipalidad, botones de accesibilidad, chatbot para atender rápidamente a los ciudadanos, entre otros elementos.
 
 ---
