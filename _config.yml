@@ -2,23 +2,23 @@ url: https://y7kim.github.io
 baseurl: https://isaacrd14.github.io/
 
 # Site settings
-title: Isaac Rivera D. |/ ing. informático
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Isaac Rivera D. / ing. informático
+email: isaac.riverad14@gmail.com
+description: "Ingeniero en computación e informática, Ciberseguridad, Pentesting, Guias Ciberseguridad"
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Isaac Rivera Delgado
   pic: 1
-  position: Lead Designer
+  position: Ing. en computación e informática
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+    - title: X
+      url: https://x.com/isaacrd14?t=gL_-izCuQ8dK7tRr_ey36A&s=09
+    - title: Linkeding
+      url: https://www.linkedin.com/in/isaac-andr%C3%A9s-rivera-delgado-990b4a207/
+    - title: GitHub
+      url: https://github.com/Isaacrd14
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
