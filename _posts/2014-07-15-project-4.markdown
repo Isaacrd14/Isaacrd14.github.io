@@ -5,7 +5,7 @@ layout: default
 modal-id: 4
 date: 2023-08-15
 img: paginaweb.jpg
-thumbnail: treehouse-thumbnail.png
+thumbnail: penaflor-sub.jpg
 alt: image-alt
 project-date: Septiembre 2023
 client: Municipalidad de Peñaflor
