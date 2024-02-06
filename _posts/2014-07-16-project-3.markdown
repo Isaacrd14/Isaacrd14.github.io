@@ -5,7 +5,7 @@ layout: default
 modal-id: 3
 date: 2023-07-16
 img: datastudio.jpg
-thumbnail: datastudio-sub.png
+thumbnail: datastudio-sub.jpg
 alt: image-alt
 project-date: Junio 2023
 client: Municipalidad de Peñaflor
