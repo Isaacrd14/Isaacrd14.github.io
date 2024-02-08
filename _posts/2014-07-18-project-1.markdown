@@ -10,6 +10,6 @@ alt: image-alt
 project-date: Enero 2024
 client: Certificados
 category: Pentesting
-description: Me he estado especializando constantemente en ciberseguridad, específicamente en pentesting. He utilizado múltiples herramientas y he obtenido certificados que respaldan mi conocimiento. Mis próximos objetivos son obtener las certificaciones eJPT y eWPT. Para obtener más información sobre estos certificados, puede hacer clic en "Servicio: Pentesting".
+description: Me he estado especializando constantemente en ciberseguridad, específicamente en pentesting. He utilizado múltiples herramientas y he obtenido certificados que respaldan mi conocimiento. Mis próximos objetivos son lograr las certificaciones eJPT y eWPT Para màs información de estos certificados puede pinchar en "Servicio:Pentesting"
 
 ---
