@@ -3,55 +3,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Servicios</h2>
-                    <h3 class="section-subheading text-muted">Los servicios que ofrezco</h3>
+                    <h2 class="section-heading">{{ site.data.home.services.heading }}</h2>
+                    <h3 class="section-subheading text-muted">{{ site.data.home.services.subheading }}</h3>
                 </div>
             </div>
             <div class="row text-center">
+                {% for service in site.data.home.services.items %}
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                        <a href="https://isaacrd.github.io/" target="_blank">
-                        <img src="/img/icons/blog.png" alt="img blog" width="100" height="100">
+                        {% if service.link %}
+                        <a href="{{ service.link }}" target="{{ service.link_target | default: '_self' }}">
+                        {% endif %}
+                        <img src="/img/icons/{{ service.icon }}" alt="{{ service.alt }}" width="100" height="100">
+                        {% if service.link %}
                         </a>
+                        {% endif %}
                     </span>
-                    <h4 class="service-heading">Mi Blog</h4>
-                    <p class="text-muted">Un blog donde publico mis guías de distinta índole, en el marco de la ciberseguridad</p>
+                    <h4 class="service-heading">{{ service.title }}</h4>
+                    <p class="text-muted">{{ service.description }}</p>
                 </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="/img/icons/ingenieria.png" alt="img ingenierìa" width="100" height="100">
-                    </span>
-                    <h4 class="service-heading">Ingeniería</h4>
-                    <p class="text-muted">Como licenciado en Ingeniería, estoy capacitado para llevar a cabo proyectos, su documentación, gráficos UML, etc.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="/img/icons/ciberseguridad.png" alt="img ciberseguridad" width="100" height="100">
-                    </span>
-                    <h4 class="service-heading">Ciberseguridad</h4>
-                    <p class="text-muted">Mi área de especialización es la ciberseguridad, concretamente el equipo Red Team, Pentester. Estoy capacitado en múltiples herramientas y sigo capacitándome constantemente.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="/img/icons/informe.png" alt="img informe" width="100" height="100">
-                    </span>
-                    <h4 class="service-heading">Informes</h4>
-                    <p class="text-muted">Elaboración de informes de auditorías a clientes, que buscan constantemente mantener sus servicios seguros ante ataques cibernéticos.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="/img/icons/informeautomatico.png" alt="img informes automatizados" width="100" height="100">
-                    </span>
-                    <h4 class="service-heading">Informes automatizados</h4>
-                    <p class="text-muted">Elaboración de informes automatizados para clientes que necesitan llevar un control exhaustivo de sus datos.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="/img/icons/desarrollo-web.png" alt="img desarrollo-web" width="100" height="100">
-                    </span>
-                    <h4 class="service-heading">Desarrollo web WordPress</h4>
-                    <p class="text-muted">Creación de páginas web con WordPress, utilizando múltiples herramientas que ofrecen una excelente experiencia para sus clientes.</p>
-                </div>
+                {% endfor %}
             </div>
         </div>
     </section>
