@@ -1,15 +1,14 @@
 ---
-title: Gestor documental
-subtitle: Proyecto Gedin
+title: Chatbot con Dialogflow
+subtitle: Asistente conversacional para atención digital
 layout: default
 modal-id: 6
-date: 2014-07-15
-img: gedin.jpg
-thumbnail: penaflor-sub.jpg
-alt: image-alt
-project-date: Octubre 2023
+date: 2023-10-01
+img: chatbot.jpg
+thumbnail: chatbot-sub.jpg
+alt: Chatbot con Dialogflow
+project-date: 2023
 client: Municipalidad de Peñaflor
-category: Desarrollo de Software
-description: Apoyé activamente en el desarrollo de una plataforma web enfocada en digitalizar toda la documentación interna del municipio. Esto incluyó la realización de charlas, capacitaciones, informes de errores, documentación, manuales de uso y la resolución de problemas en tiempo real.
-
+category: Dialogflow · Integración web · Automatización de atención
+description: Desarrollo e implementación de un chatbot con Dialogflow para apoyar atención digital en portales municipales. Se trabajó en el diseño de flujos conversacionales, entrenamiento y publicación, aportando experiencia práctica en soluciones de IA aplicada.
 ---

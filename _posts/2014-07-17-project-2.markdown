@@ -1,15 +1,14 @@
 ---
-title: ChatBot
-subtitle: Chatbot creado con DialogFlow
+title: Flujo de fin de servicio
+subtitle: Automatización de proceso crítico con respaldos en Azure
 layout: default
 modal-id: 2
-date: 2023-07-14
-img: chatbot.jpg
-thumbnail: chatbot-sub.jpg
-alt: image-alt
-project-date: Octubre 2023
-client: Municipalidad de Peñaflor
-category: Desarrollo Web
-description: Trabajé activamente en la creación de un Chatbot con DialogFlow, desde la concepción del proyecto, entrenamiento del Chatbot y posterior implementación a las páginas municipales de Péñaflor.
-
+date: 2025-03-15
+img: roundicons.png
+thumbnail: roundicons-thumbnail.png
+alt: Automatización de fin de servicio
+project-date: 2025
+client: Softland Chile
+category: C# · .NET · Azure Blob Storage · Automatización
+description: Automatización completa del flujo de fin de servicio a clientes, integrando lógica de negocio, ejecución de tareas programadas y respaldos de bases de datos en Azure Blob Storage. Se mejoró la trazabilidad operativa y la continuidad del proceso sin exponer información sensible.
 ---

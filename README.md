@@ -1,30 +1,23 @@
-Agency Jekyll theme
-====================
+# Portafolio profesional (GitHub Pages + Jekyll)
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+Sitio personal de **Isaac Andrés Rivera Delgado** enfocado en ingeniería de software, automatización, DevOps, arquitectura e IA aplicada.
 
-# How to use
+## Estructura editable
 
-###Portfolio 
+- `index.html`: entrada principal del sitio.
+- `_layouts/default.html`: layout global y orden de secciones.
+- `_data/home.yml`: contenido principal (hero, sobre mí, stack, experiencia, logros, formación y contacto).
+- `_posts/`: proyectos destacados que alimentan la grilla y los modales.
+- `_includes/`: secciones reutilizables (`header`, `about`, `services`, `portfolio_grid`, `team`, `clients`, `contact`, `footer`, `modals`).
+- `style.css`: estilos principales del sitio.
 
-Portfolio projects are in '/_posts'
+## Cómo actualizar contenido rápidamente
 
-Images are in '/img/portfolio'
+1. **Texto principal del home:** editar `_data/home.yml`.
+2. **Agregar o editar proyectos:** modificar archivos en `_posts/`.
+3. **Cambiar navegación o estructura de secciones:** editar `_layouts/default.html` y `_includes/header.html`.
+4. **Ajustes visuales:** editar `style.css`.
 
-###About
+## Compatibilidad
 
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+El sitio mantiene estructura estándar de Jekyll compatible con GitHub Pages.
