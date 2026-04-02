@@ -25,14 +25,9 @@
         <h3 class="section-subheading">{{ site.data.home.experience.heading }}</h3>
       </div>
       <div class="col-lg-12">
-        <ul class="timeline">
+        <ul class="timeline timeline-simple">
           {% for milestone in site.data.home.experience.timeline %}
             <li{% if milestone.inverted %} class="timeline-inverted"{% endif %}>
-              <div class="timeline-image">
-                <div class="timeline-logo-wrap">
-                  <img class="timeline-logo img-responsive" src="img/about/{{ milestone.image }}" alt="{{ milestone.title }}">
-                </div>
-              </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>{{ milestone.period }}</h4>
