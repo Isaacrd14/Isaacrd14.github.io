@@ -8,8 +8,13 @@
     </div>
     <div class="portfolio-grid" role="list">
       {% for post in site.posts %}
+        {% if post.modal-route %}
+          {% assign modal_route = post.modal-route %}
+        {% else %}
+          {% assign modal_route = 'portfolioModal' | append: post.modal-id %}
+        {% endif %}
         <article class="portfolio-item" role="listitem">
-          <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal" aria-label="Ver más de {{ post.title }}">
+          <a href="#{{ modal_route }}" class="portfolio-link" data-toggle="modal" aria-label="Ver más de {{ post.title }}">
             <div class="portfolio-media">
               <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive" alt="{{ post.title }}">
               <div class="portfolio-hover">

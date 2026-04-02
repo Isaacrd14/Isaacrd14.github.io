@@ -146,12 +146,14 @@ section { padding: 88px 0; }
 .service-icon {
   width: 58px;
   height: 58px;
-  line-height: 58px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 14px;
   background: rgba(83,179,255,.12);
   color: var(--primary-2);
   font-size: 24px;
+  margin: 0 auto;
 }
 .portfolio-grid {
   display: grid;
@@ -248,6 +250,21 @@ section { padding: 88px 0; }
 .timeline > li .timeline-panel,
 .timeline > li .timeline-image {
   border-color: var(--border);
+}
+.timeline.timeline-simple:before {
+  display: none;
+}
+.timeline.timeline-simple > li {
+  min-height: 0;
+  margin-bottom: 24px;
+}
+.timeline.timeline-simple > li .timeline-image {
+  display: none;
+}
+.timeline.timeline-simple > li .timeline-panel,
+.timeline.timeline-simple > li.timeline-inverted > .timeline-panel {
+  width: 100%;
+  float: none;
 }
 .timeline > li .timeline-image {
   background: transparent;

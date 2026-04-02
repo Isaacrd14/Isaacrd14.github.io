@@ -59,16 +59,13 @@ experience:
   timeline:
     - period: "2024 - Actualidad"
       title: "Softland Chile · Analista de Desarrollo"
-      image: "trabajo.jpg"
       text: "Diseño y desarrollo de soluciones empresariales, APIs e integraciones. Liderazgo técnico en automatizaciones, optimización de pipelines y adopción de GitHub Copilot para la organización."
     - period: "2023"
       title: "Municipalidad de Peñaflor"
-      image: "penaflor.jpg"
       inverted: true
       text: "Participación en proyectos de transformación digital, automatización de reportes y desarrollo web, aportando experiencia práctica en levantamiento de requerimientos y ejecución técnica."
     - period: "2020 - 2024"
       title: "Universidad Andrés Bello"
-      image: "unab.jpg"
       text: "Formación en Ingeniería en Computación e Informática, consolidando bases en desarrollo de software, arquitectura y resolución de problemas complejos."
 
 achievements:

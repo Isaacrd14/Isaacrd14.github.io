@@ -3,6 +3,7 @@ title: Flujo de fin de servicio
 subtitle: Automatización de proceso crítico con respaldos en Azure
 layout: default
 modal-id: 2
+modal-route: Home
 date: 2025-03-15
 img: azure-data.svg
 thumbnail: azure-data.svg
