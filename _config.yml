@@ -1,42 +1,16 @@
-url: https://y7kim.github.io
-baseurl: https://isaacrd14.github.io/
+url: "https://isaacrd14.github.io"
+baseurl: ""
 
 # Site settings
-title: Isaac Rivera D. / ing. informático
-email: isaac.riverad14@gmail.com
-description: "Ingeniero en computación e informática, Ciberseguridad, Pentesting, Guias Ciberseguridad"
+title: "Isaac Andrés Rivera Delgado"
+email: "isaac.riverad14@gmail.com"
+description: "Portafolio profesional de ingeniería de software, automatización, arquitectura e IA aplicada."
 
-
-# Team names, titles and social links
-people:
-- name: Isaac Rivera Delgado
-  pic: 5
-  position: Ing. en computación e informática
-  social:
-    - title: twitter
-      url: https://x.com/isaacrd14?t=gL_-izCuQ8dK7tRr_ey36A&s=09
-      target: _blank
-    - title: linkedin
-      url: https://www.linkedin.com/in/isaac-andr%C3%A9s-rivera-delgado-990b4a207/
-      target: _blank
-    - title: github
-      url: https://github.com/Isaacrd14
-      target: _blank
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://x.com/isaacrd14?t=gL_-izCuQ8dK7tRr_ey36A&s=09
-  - title: github
-    url: https://github.com/Isaacrd14
   - title: linkedin
-    url: https://www.linkedin.com/in/isaac-andr%C3%A9s-rivera-delgado-990b4a207/
+    url: "https://www.linkedin.com/in/isaac-andr%C3%A9s-rivera-delgado-990b4a207/"
+  - title: github
+    url: "https://github.com/Isaacrd14"
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
-
-# Build settings
 markdown: kramdown
 permalink: pretty

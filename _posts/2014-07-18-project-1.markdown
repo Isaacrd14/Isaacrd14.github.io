@@ -1,15 +1,14 @@
 ---
-title: Ciberseguridad
-subtitle: Pentesting
+title: Integración de GitHub Copilot
+subtitle: Adopción empresarial en Softland Chile
 layout: default
 modal-id: 1
-date: 2024-01-01
-img: ciberport.jpg
-thumbnail: ciberport-sub.jpg
-alt: image-alt
-project-date: Enero 2024
-client: Certificados
-category: Pentesting
-description: Me he estado especializando constantemente en ciberseguridad, específicamente en pentesting. He utilizado múltiples herramientas y he obtenido certificados que respaldan mi conocimiento. Mis próximos objetivos son lograr las certificaciones eJPT y eWPT Para màs información de estos certificados puede pinchar en "Servicio:Pentesting"
-
+date: 2025-04-01
+img: startup-framework.png
+thumbnail: startup-framework-thumbnail.png
+alt: Integración de Copilot
+project-date: 2025
+client: Softland Chile
+category: GitHub Copilot · Gobierno técnico · IA aplicada
+description: Proyecto orientado a integrar y escalar el uso de GitHub Copilot en equipos de desarrollo. Incluyó definición de lineamientos, acompañamiento técnico, difusión interna y charla para toda la organización. El resultado fue una adopción más consistente y alineada con estándares de ingeniería.
 ---

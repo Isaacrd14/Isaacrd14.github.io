@@ -1,28 +1,21 @@
-<!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{ site.data.home.services.heading }}</h2>
-                    <h3 class="section-subheading text-muted">{{ site.data.home.services.subheading }}</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                {% for service in site.data.home.services.items %}
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        {% if service.link %}
-                        <a href="{{ service.link }}" target="{{ service.link_target | default: '_self' }}">
-                        {% endif %}
-                        <img src="/img/icons/{{ service.icon }}" alt="{{ service.alt }}" width="100" height="100">
-                        {% if service.link %}
-                        </a>
-                        {% endif %}
-                    </span>
-                    <h4 class="service-heading">{{ service.title }}</h4>
-                    <p class="text-muted">{{ service.description }}</p>
-                </div>
-                {% endfor %}
-            </div>
+<section id="services" class="section-muted">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ site.data.home.services.heading }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.home.services.subheading }}</h3>
+      </div>
+    </div>
+    <div class="row text-center">
+      {% for service in site.data.home.services.items %}
+        <div class="col-md-4 col-sm-6 service-card-wrap">
+          <div class="service-card">
+            <span class="service-icon"><i class="fa {{ service.icon }}"></i></span>
+            <h4 class="service-heading">{{ service.title }}</h4>
+            <p class="text-muted">{{ service.description }}</p>
+          </div>
         </div>
-    </section>
+      {% endfor %}
+    </div>
+  </div>
+</section>

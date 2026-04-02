@@ -1,62 +1,40 @@
-<!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
-            </div>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand page-scroll" href="#page-top">{{ site.title }}</a>
+    </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Servicios</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portafolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">Trayectoria</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Isaac</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+    <div class="collapse navbar-collapse" id="main-nav">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="page-scroll" href="#about">Sobre mí</a></li>
+        <li><a class="page-scroll" href="#services">Stack</a></li>
+        <li><a class="page-scroll" href="#portfolio">Proyectos</a></li>
+        <li><a class="page-scroll" href="#team">Logros</a></li>
+        <li><a class="page-scroll" href="#clients">Formación</a></li>
+        <li><a class="page-scroll" href="#contact">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Bienvenid@ a mi página web</div>
-                <div class="intro-heading">¡Gracias por visitar!<br>~Isaac R.</div>
-                <a href="#services" class="page-scroll btn btn-xl">Guiame en mi visita</a>
-            </div>
-        </div>
-        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-        <df-messenger
-          intent="WELCOME"
-          chat-title="Bot_Portafolio"
-          agent-id="acb87238-1a88-4621-bf38-709380ea4242"
-          language-code="es"
-        ></df-messenger>
-    </header>
-<!--
-        {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+<header>
+  <div class="container">
+    <div class="intro-text">
+      <div class="intro-badge">{{ site.data.home.hero.badge }}</div>
+      <div class="intro-lead-in">{{ site.data.home.hero.lead }}</div>
+      <div class="intro-heading">{{ site.data.home.hero.heading }}</div>
+      <p class="intro-summary">{{ site.data.home.hero.summary }}</p>
+      <div class="hero-actions">
+        {% for cta in site.data.home.hero.ctas %}
+          <a href="{{ cta.url }}" class="btn btn-hero btn-hero-{{ cta.style }}{% if cta.url contains '#' %} page-scroll{% endif %}"{% unless cta.url contains '#' %} target="_blank" rel="noopener noreferrer"{% endunless %}>{{ cta.label }}</a>
         {% endfor %}
- -->
-
+      </div>
+    </div>
+  </div>
+</header>

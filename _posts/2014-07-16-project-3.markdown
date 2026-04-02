@@ -1,15 +1,14 @@
 ---
-title: Looker studio
-subtitle: Sistema de reportes automáticos
+title: Gestión de réplicas de empresas
+subtitle: Flujo automatizado end-to-end
 layout: default
 modal-id: 3
-date: 2023-07-16
-img: datastudio.jpg
-thumbnail: datastudio-sub.png
-alt: image-alt
-project-date: Junio 2023
-client: Municipalidad de Peñaflor
-category: Análisis de datos
-description: Ayude en la creación de reportes automáticos con Data Studio para todas las Direcciones municipales de Peñaflor, optimizando tareas y reportes periódicos que los funcionarios debían crear a mano
-
+date: 2025-02-10
+img: escape.png
+thumbnail: escape-thumbnail.png
+alt: Gestión de réplicas
+project-date: 2025
+client: Softland Chile
+category: APIs · Automatización de procesos · Integración
+description: Implementación de un flujo integral para gestionar réplicas de empresas de forma automática. El diseño abordó reglas de negocio, validaciones, coordinación entre componentes y control operativo para reducir dependencia de tareas manuales.
 ---
