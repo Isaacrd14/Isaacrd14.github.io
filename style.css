@@ -117,10 +117,9 @@ section { padding: 88px 0; }
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 320px));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 22px;
   align-items: stretch;
-  justify-content: center;
 }
 .service-card {
   min-height: 270px;
