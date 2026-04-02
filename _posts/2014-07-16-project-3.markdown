@@ -4,9 +4,9 @@ subtitle: Flujo automatizado end-to-end
 layout: default
 modal-id: 3
 date: 2025-02-10
-img: escape.png
-thumbnail: escape-thumbnail.png
-alt: Gestión de réplicas
+img: architecture-integration.svg
+thumbnail: architecture-integration.svg
+alt: Arquitectura e integración para gestión de réplicas
 project-date: 2025
 client: Softland Chile
 category: APIs · Automatización de procesos · Integración

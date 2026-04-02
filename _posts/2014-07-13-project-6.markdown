@@ -4,9 +4,9 @@ subtitle: Asistente conversacional para atención digital
 layout: default
 modal-id: 6
 date: 2023-10-01
-img: chatbot.jpg
-thumbnail: chatbot-sub.jpg
-alt: Chatbot con Dialogflow
+img: chatbot-ai.svg
+thumbnail: chatbot-ai.svg
+alt: Chatbot conversacional con IA
 project-date: 2023
 client: Municipalidad de Peñaflor
 category: Dialogflow · Integración web · Automatización de atención

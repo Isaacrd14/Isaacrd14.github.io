@@ -4,9 +4,9 @@ subtitle: Despliegues más predecibles para proyectos complejos
 layout: default
 modal-id: 4
 date: 2025-01-20
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
-alt: Optimización de pipelines
+img: cicd-pipelines.svg
+thumbnail: cicd-pipelines.svg
+alt: Pipeline CI/CD y despliegues automatizados
 project-date: 2024-2025
 client: Softland Chile
 category: Azure DevOps · CI/CD · Versionamiento

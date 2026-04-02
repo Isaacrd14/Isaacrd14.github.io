@@ -4,9 +4,9 @@ subtitle: Automatización de proceso crítico con respaldos en Azure
 layout: default
 modal-id: 2
 date: 2025-03-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
-alt: Automatización de fin de servicio
+img: azure-data.svg
+thumbnail: azure-data.svg
+alt: Automatización y respaldos en Azure
 project-date: 2025
 client: Softland Chile
 category: C# · .NET · Azure Blob Storage · Automatización

@@ -4,9 +4,9 @@ subtitle: Adopción empresarial en Softland Chile
 layout: default
 modal-id: 1
 date: 2025-04-01
-img: startup-framework.png
-thumbnail: startup-framework-thumbnail.png
-alt: Integración de Copilot
+img: copilot-integration.svg
+thumbnail: copilot-integration.svg
+alt: Integración GitHub Copilot en equipos de desarrollo
 project-date: 2025
 client: Softland Chile
 category: GitHub Copilot · Gobierno técnico · IA aplicada
